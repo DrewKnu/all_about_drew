@@ -1,0 +1,107 @@
+/* General body and text styles */
+body {
+    font-family: Arial, sans-serif; /* Setting the font family */
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #003366; /* Dark blue background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Georgia', serif; /* Serif font for the header */
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section 1 (The Need to Know's of Ball) */
+#section1 {
+    background-color: #ffffff; /* White background for content */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#section1 h2 {
+    color: #003366; /* Dark blue text */
+    font-family: 'Georgia', serif;
+}
+
+#section1 ol li {
+    margin-bottom: 10px;
+}
+
+/* Section 3 (Media Showcase) */
+#section3 {
+    background-color: #e9ecef; /* Light gray background for the media section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#section3 h2 {
+    color: #003366;
+    font-family: 'Georgia', serif;
+}
+
+/* Div block for styling content in the media section */
+#section3 div {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for each block */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #FFD700; /* Gold color for the link */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
